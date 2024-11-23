@@ -14,7 +14,6 @@ public class GuiMovePlusPlus extends Module {
     public GuiMovePlusPlus() {
         super(Categories.Movement, "Gui Move ++", "Allows minimizing GUI's");
     }
-//
     private final SettingGroup sgGeneral = settings.getDefaultGroup();
     public final Setting<Boolean> displayGuiStatus = sgGeneral.add(new BoolSetting.Builder()
         .name("display-gui-status")
